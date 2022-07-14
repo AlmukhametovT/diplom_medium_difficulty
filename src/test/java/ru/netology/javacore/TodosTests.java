@@ -76,8 +76,8 @@ public class TodosTests {
 
     public static Stream<Arguments> methodSource() {
         return Stream.of(
-                Arguments.of("2", "1", "3", "1 2 3 "),
-                Arguments.of("Bella", "Boris", "Alena", "Alena Bella Boris ")
+                Arguments.of("2", "1", "3", "1 2 3"),
+                Arguments.of("Bella", "Boris", "Alena", "Alena Bella Boris")
         );
     }
 }
