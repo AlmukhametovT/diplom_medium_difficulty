@@ -17,7 +17,7 @@ public class TodoServer {
         this.todos = todos;
     }
 
-    public void start() throws IOException {
+    public void start() {
         System.out.println("Starting server at " + port + "...");
         try (ServerSocket serverSocket = new ServerSocket(port);) { // стартуем сервер один(!) раз
             while (true) { // в цикле(!) принимаем подключения
